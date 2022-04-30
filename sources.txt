@@ -1,0 +1,13 @@
+--Raw Data--
+
+LES_loop.gpx - Raw file of Lower East Side running route, containing trackpoints, heart rate, and cadence.
+PP_ccw.gpx - Raw file of Prospect Park Counter-Clockwise running route, containing trackpoints, heart rate, and cadence.
+PP_cw.gpx - Raw file of Prospect Park Clockwise running route, containing trackpoints, heart rate, and cadence.
+
+--Clean data--
+LESloop_gdf.csv - LES Loop route file parsed into GeoDataFrame
+PPccw_gdf.csv - Prospect Park Counter-Clockwise route file parsed into GeoDataFrame
+PPcw_gdf.csv - Prospect Park Clockwise route file parsed into GeoDataFrame
+
+--Modified Data--
+LESloop_effort_gdf.csv - LES Loop route file parsed into GeoDataFrame with engineered column for "effort zones"
